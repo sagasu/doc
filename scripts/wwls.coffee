@@ -1,5 +1,5 @@
 # Description:
-#   What would Linus Say? 
+#   What would Linus Say?
 #   Get a random inspirational quote from Linus Torvalds.
 #
 # Commands:
@@ -28,7 +28,16 @@ quotes = [
     "I'm in active competition with them, so I hope they die.",
     "Those particular color choices will make most people decide to pick out their eyes with a fondue fork.",
     "Digging in your eye-sockets with a fondue fork is strictly considered bad for your health, and seve out of nine optometrists are dead set agains the practice.",
-    "In order to avoid a lot of blind users, please apply this patch."]
+    "In order to avoid a lot of blind users, please apply this patch.",
+    "Only wimps use tape backup: real men just upload their important stuff on ftp, and let the rest of the world mirror it.",
+    "Regression testing? What's that? If it compiles, it is good; if it boots up, it is perfect.",
+    "Once you realize that documentation should be laughed at, peed upon, put on fire, and just ridiculed in general, THEN, and only then, have you reached the level where you can safely read it and try to use it to actually implement a driver.",
+    "I'm always right. This time I'm just even more right than usual.",
+    "A lot of people still like Solaris, but I'm in active competition with them, and so I hope they die.",
+    "Standards are paper. I use paper to wipe my butt every day. That's how much that paper is worth.",
+    "Crying that it's an application bug is like crying over the speed of light: you should deal with reality, not what you wish reality was.",
+    "Nvidia, fuck you!",
+    "I am a lazy person, which is why I like open source, for other people to do work for me."]
 
 module.exports = (robot) ->
   robot.hear /what would linus say/i, (msg) ->
