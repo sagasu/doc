@@ -123,7 +123,7 @@ module.exports = (robot) ->
 
   # Enable a looser regex if environment variable is set
   if process.env.HUBOT_SHIP_EXTRA_CAPYBARAS
-    regex = /ship(ping|z|s|ped)?\s*it\s*harder/i
+    regex = /ship(ping|z|s|ped)?\s*it\s*(the)?\s*hard(er|est)?/i
   else
     regex = /ship\s*it\s*harder/i
 
