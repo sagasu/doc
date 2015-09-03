@@ -12,9 +12,6 @@
 #
 # Commands:
 #   kaizen it - Display a motivational capybara when a squirrel just wont do!
-#
-# Original Author:
-#   maddox (capybaras added by DaveOps83)
 
 capybaras = [
   "http://www.rainforest-alliance.org/sites/default/files/uploads/4/capybara-family_15762686447_f9f8a0684a_o.jpg",
