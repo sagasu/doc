@@ -1,5 +1,5 @@
 # Description:
-#   More Effective Rodent Motivation
+#   More Effective Kaizen Rodent Motivation
 #
 #   Set the environment variable HUBOT_SHIP_EXTRA_CAPYBARAS (to anything)
 #   for additional motivation
@@ -11,7 +11,7 @@
 #   HUBOT_SHIP_EXTRA_CAPYBARAS
 #
 # Commands:
-#   ship it harder - Display a motivational capybara when a squirrel just wont do!
+#   kaizen it - Display a motivational capybara when a squirrel just wont do!
 #
 # Original Author:
 #   maddox (capybaras added by DaveOps83)
@@ -115,9 +115,9 @@ module.exports = (robot) ->
 
   # Enable a looser regex if environment variable is set
   if process.env.HUBOT_SHIP_EXTRA_CAPYBARAS
-    regex = /ship(ping|z|s|ped)?\s*it\s*(the)?\s*hard(er|est)?/i
+    regex = /kaizen(ing|ed)?\s*it/i
   else
-    regex = /ship\s*it\s*harder/i
+    regex = /kaizen\s*it/i
 
   robot.hear regex, (msg) ->
     msg.send msg.random capybaras
