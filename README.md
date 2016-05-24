@@ -158,6 +158,8 @@ Where `<adapter>` is the name of your adapter without the `hubot-` prefix.
 ## Deployment
 
     % heroku create --stack cedar
+    % heroku config:add HEROKU_URL=https://my-company-slackbot.herokuapp.com
+    % heroku config:add HUBOT_SLACK_TOKEN=xoxb-1234-5678-91011-00e4dd
     % git push heroku master
 
 If your Heroku account has been verified you can run the following to enable
