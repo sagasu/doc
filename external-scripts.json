@@ -14,5 +14,6 @@
   "hubot-shipit",
   "hubot-standup-alarm",
   "hubot-thank-you",
-  "hubot-sentimental"
+  "hubot-sentimental",
+  "hubot-tell"
 ]
