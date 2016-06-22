@@ -6,7 +6,7 @@
   "description": "A simple helpful robot for your Company",
   "dependencies": {
     "hubot": "^2.15.0",
-    "hubot-brexit": "^1.0.0",
+    "hubot-brexit": "^1.1.0",
     "hubot-business-cat": "^1.2.4",
     "hubot-cutebomb": "^1.0.0",
     "hubot-darts": "^1.0.2",
