@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "hubot": "^2.15.0",
-    "hubot-beer-o-clock": "^1.1.0",
+    "hubot-beer-o-clock": "^1.2.0",
     "hubot-blackfriday": "^1.1.0",
     "hubot-brexit": "^1.2.0",
     "hubot-cutebomb": "^1.0.0",
@@ -46,7 +46,6 @@
     "hubot-sentimental": "^1.0.8",
     "hubot-shipit": "^0.2.0",
     "hubot-slack": "^3.3.0",
-    "hubot-standup-alarm": "^0.1.0",
     "hubot-tell": "^1.2.4",
     "hubot-thank-you": "0.0.3",
     "hubot-thesimpsons": "^1.1.4",
