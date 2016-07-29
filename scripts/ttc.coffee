@@ -62,9 +62,15 @@ ttc = [
 module.exports = (robot) ->
   robot.respond /raise the team spirit/i, (msg) ->
     msg.send msg.random ttc
+    msg.send msg.random ttc
+    msg.send msg.random ttc
 
   robot.respond /why is LMD delayed/i, (msg) ->
     msg.send msg.random ttc
+    msg.send msg.random ttc
+    msg.send msg.random ttc
 
   robot.respond /BTFL/i, (msg) ->
+    msg.send msg.random ttc
+    msg.send msg.random ttc
     msg.send msg.random ttc
