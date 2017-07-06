@@ -2,7 +2,11 @@
 doc is a friendly hubot
 
 #config
+<br />
 heroku config:add REDISTOGO_URL=redis://redistogo:b1bc59b8c7fd80e646b6148d9354813f@lab.redistogo.com:10505
+<br />
 heroku config:add HEROKU_URL=https://young-sands-45836.herokuapp.com
+<br />
 heroku config:add HUBOT_SLACK_TOKEN=xoxb-45372731543-dep7di9WTsj7fUnOjtUXDX6Y
+<br />
 git push heroku master
