@@ -1,6 +1,17 @@
 # doc
 doc is a friendly hubot
 
+#init the cloned code if your bot is hosted in heroku
+<br />
+After cloning this repo run following two commands
+<br />
+heroku login
+<br />
+heroku git:remote -a young-sands-45836
+<br />
+Now when you run `git remote -vv` you should see git remote being set to heroku.
+<br /><br />
+
 #config
 <br />
 heroku config:add REDISTOGO_URL=redis://redistogo:b1bc59b8c7fd80e646b6148d9354813f@lab.redistogo.com:10505
