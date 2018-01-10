@@ -59,6 +59,7 @@ ttc = [
   "https://raw.githubusercontent.com/sagasu/hubot-ttc-team-building/master/img/IMG_1637.JPG"
 ]
 
+###
 module.exports = (robot) ->
   robot.respond /raise the team spirit/i, (msg) ->
     msg.send msg.random ttc
@@ -74,3 +75,4 @@ module.exports = (robot) ->
     msg.send msg.random ttc
     msg.send msg.random ttc
     msg.send msg.random ttc
+###
