@@ -18,5 +18,5 @@ module.exports = (robot) ->
   robot.respond /whos the man/i, (msg) ->
     msg.send "Prem, Prem, Prem!"
 
-  robot.respond /whos\'s the man/i, (msg) ->
+  robot.respond /who.s the man/i, (msg) ->
     msg.send "Prem, Prem, Prem!"
