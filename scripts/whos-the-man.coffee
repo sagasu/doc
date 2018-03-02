@@ -15,8 +15,8 @@
 #   Mateusz Kopij <sagasu>
 
 module.exports = (robot) ->
-  robot.hear /who's the man/i, (msg) ->
+  robot.respond /who's the man/i, (msg) ->
     msg.send "Prem, Prem, Prem!"
 
-  robot.hear /whos the man/i, (msg) ->
+  robot.respond /whos the man/i, (msg) ->
     msg.send "Prem, Prem, Prem!"
