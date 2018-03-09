@@ -22,3 +22,9 @@ Please use a correct one REDISTOGO_URL, this is just to showw the format.<br />
 `heroku config:add HUBOT_SLACK_TOKEN=xoxb-45372731543-dep7di9WTsj7fUnOjtUXDX6Y`
 <br />
 `git push heroku master`
+<br />
+<br />
+<br />
+# restart bot in heroku if something happened
+`heroku restart`
+
