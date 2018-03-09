@@ -1,7 +1,9 @@
 # doc
+
 doc is a friendly hubot
 
 # init the cloned code if your bot is hosted in heroku
+
 <br />
 After cloning this repo run following two commands:
 <br />
@@ -13,6 +15,7 @@ Now when you run `git remote -vv` you should see git remote being set to heroku.
 <br /><br />
 
 # config
+
 <br />
 Please use a correct one REDISTOGO_URL, this is just to showw the format.<br />
 `heroku config:add REDISTOGO_URL=redis://redistogo:b1bc59b8c7fd80e646b6148d9354813f@lab.redistogo.com:10505`
@@ -25,6 +28,8 @@ Please use a correct one REDISTOGO_URL, this is just to showw the format.<br />
 <br />
 <br />
 <br />
+
 # restart bot in heroku if something happened
+
 `heroku restart`
 
