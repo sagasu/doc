@@ -3,11 +3,11 @@ doc is a friendly hubot
 
 # init the cloned code if your bot is hosted in heroku
 <br />
-After cloning this repo run following two commands
+After cloning this repo run following two commands:
 <br />
-heroku login
+`heroku login`
 <br />
-heroku git:remote -a young-sands-45836
+`heroku git:remote -a young-sands-45836`
 <br />
 Now when you run `git remote -vv` you should see git remote being set to heroku.
 <br /><br />
