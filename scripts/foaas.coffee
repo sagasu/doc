@@ -28,7 +28,7 @@ module.exports = (robot) ->
       'yoda'
     ]
 
-    from = msg.message.user.name
+    from = "senior business architect" #msg.message.user.name
 
     to = msg.match[1]
 
