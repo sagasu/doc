@@ -50,6 +50,7 @@
     "hubot-redis-brain": "0.0.3",
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.16.2",
+    "hubot-shakespearean-insults": "0.0.4",
     "hubot-shipit2": "^0.2.1",
     "hubot-slack": "^3.3.0",
     "hubot-standup-alarm": "^0.1.0",
