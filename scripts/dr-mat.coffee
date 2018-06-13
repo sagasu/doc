@@ -13,8 +13,18 @@
 # Author:
 #   Mateusz Kopij <sagasu>
 
+
+
+MATT_QUOTE = [
+  "Burritos are just tacoids in the category of enchiladafunctors",
+  "Monads are just monoids in the category of endofunctors",
+  "The review is pretty 3rd quadrant",
+  "Let's do multivariate test",
+  "We have asymptotic release cycle"
+]
+
 module.exports = (robot) ->
 
   robot.respond /what would Dr Matt say/i, (msg)->
-    msg.send "Burritos are just tacoids in the category of enchiladafunctors"
+    msg.send msg.random(MATT_QUOTE)
     
