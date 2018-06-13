@@ -32,10 +32,10 @@ module.exports = (robot) ->
     msg.send "Endomorphism w/o inversion. There is no going back!"
 
   robot.respond /define catamorphism/i, (msg)->
-    msg.send "Bananas :) Dual operation to anaamorphism. Generalizaiton of folds. Funciton that takes a colleciton and reduces it to a single value, like Max, Min and Aggregate."
+    msg.send "Bananas :) Dual operation to anaamorphism. Generalizaiton of folds. Functor that takes a colleciton and reduces it to a single value, like Max, Min and Aggregate. Or like Dr Matt handles his beer from full to empty."
 
   robot.respond /define anamorphism/i, (msg)->
-    msg.send "Dual operation to catamorphism. Unfolding to list from a single value."
+    msg.send "Dual operation to catamorphism. Unfolding to a collection from a single value."
 
   robot.respond /define hylomorphism/i, (msg)->
     msg.send ""
