@@ -20,7 +20,8 @@ MATT_QUOTE = [
   "Monads are just monoids in the category of endofunctors",
   "The review is pretty 3rd quadrant",
   "Let's do multivariate test",
-  "We have asymptotic release cycle"
+  "We have asymptotic release cycle",
+  "To win greatest victories one must take the greatest risk"
 ]
 
 module.exports = (robot) ->
