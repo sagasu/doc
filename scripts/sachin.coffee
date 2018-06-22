@@ -25,7 +25,7 @@ cuteLinks = [
 ]
 
 justhead = [
-  "https://github.com/sagasu/offshore-team/blrawob/master/img/Sachin.png"
+  ":sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin:"
 ]
 
 module.exports = (robot) ->
@@ -40,5 +40,5 @@ module.exports = (robot) ->
     count = msg.match[2] || 5
     elements = [1..count]
     Math.floor(Math.random() * cuteLinks.length)
-    msg.send "https://github.com/sagasu/offshore-team/blob/master/img/Sachin.png?raw=true" for element in elements
+    msg.send ":sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin:" for element in elements
   
