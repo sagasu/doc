@@ -15,8 +15,8 @@
 
 
 offshorepics = [
-  "https://github.com/sagasu/offshore-team/blob/master/img/OffshoreTeam2.jpg?raw=true",
-  "https://github.com/sagasu/offshore-team/blob/master/img/vicTeam.png?raw=true"
+  "https://github.com/sagasu/offshore-team/raw/master/img/OffshoreTeam2.jpg",
+  "https://github.com/sagasu/offshore-team/raw/master/img/vicTeam.png"
 ]
 
 module.exports = (robot) ->

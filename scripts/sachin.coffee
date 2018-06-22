@@ -19,13 +19,13 @@
 #   Mateusz Kopij <sagasu>
 
 cuteLinks = [
-    "https://github.com/sagasu/offshore-team/blob/master/img/0.jpeg?raw=true",
-    "https://github.com/sagasu/offshore-team/blob/master/img/1.jpg?raw=true",
-    "https://github.com/sagasu/offshore-team/blob/master/img/2.png?raw=true"
+    "https://github.com/sagasu/offshore-team/raw/master/img/0.jpeg",
+    "https://github.com/sagasu/offshore-team/raw/master/img/1.jpg",
+    "https://github.com/sagasu/offshore-team/raw/master/img/2.png"
 ]
 
 justhead = [
-  "https://github.com/sagasu/offshore-team/blob/master/img/Sachin.png?raw=true"
+  "https://github.com/sagasu/offshore-team/blrawob/master/img/Sachin.png"
 ]
 
 module.exports = (robot) ->
