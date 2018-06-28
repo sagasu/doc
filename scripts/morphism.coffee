@@ -8,7 +8,16 @@
 #   None
 #
 # Commands:
+#   hubot define homomorphism
+#   hubot define isomorphism
+#   hubot define monomorphism
+#   hubot define endomorphism
+#   hubot define automorphism
 #   hubot define catamorphism
+#   hubot define anamorphism
+#   hubot define hylomorphism
+#   hubot define paramorphism
+#   hubot define polymorphism
 #
 # Author:
 #   Mateusz Kopij <sagasu>
