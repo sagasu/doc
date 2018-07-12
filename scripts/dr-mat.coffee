@@ -9,6 +9,7 @@
 #
 # Commands:
 #   hubot what would Dr Matt say
+#   hubot awake your brothers
 #
 # Author:
 #   Mateusz Kopij <sagasu>
@@ -30,3 +31,5 @@ module.exports = (robot) ->
   robot.respond /what would Dr Matt say/i, (msg)->
     msg.send msg.random(MATT_QUOTE)
     
+  robot.respond /awake your brothers/i, (msg)->
+    msg.send "https://secure-anchorage-54524.herokuapp.com/"
