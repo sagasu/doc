@@ -10,6 +10,8 @@
 # Commands:
 #   hubot offshore team
 #   hubot sachin nsfw
+#   hubot who will be victorious
+#   hubot who will prevail
 #
 # Author:
 #   Mateusz Kopij <sagasu>
@@ -30,3 +32,8 @@ module.exports = (robot) ->
     msg.send "https://github.com/sagasu/offshore-team/raw/master/img/offshore_gone_wrong.png"
     
 
+  robot.respond /who will be victorious/i, (msg)->
+    msg.send "The Offshore team! :sachin: :prem: :kostas: :chris: :drmatt:"
+
+  robot.respond /who will prevail/i, (msg)->
+    msg.send "The Offshore team! :sachin: :prem: :kostas: :chris: :drmatt:"
