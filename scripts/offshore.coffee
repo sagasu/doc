@@ -12,6 +12,7 @@
 #   hubot sachin nsfw
 #   hubot who will be victorious
 #   hubot who will prevail
+#   hubot who will unleash righteous vengeance upon evil
 #
 # Author:
 #   Mateusz Kopij <sagasu>
@@ -37,3 +38,6 @@ module.exports = (robot) ->
 
   robot.respond /who will prevail/i, (msg)->
     msg.send "The Offshore team! :sachin: :prem: :kostas: :chris: :drmatt:"
+
+  robot.respond /who will unleash righteous vengeance upon evil/i, (msg)->
+    msg.send "The heroes of offshore team! :sachin: :prem: :kostas: :chris: :drmatt:"
