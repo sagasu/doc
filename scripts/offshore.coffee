@@ -45,3 +45,6 @@ module.exports = (robot) ->
 
   robot.respond /who will unleash righteous vengeance upon evil/i, (msg)->
     msg.send "The heroes of offshore team! :sachin: :prem: :kostas: :chris: :drmatt:"
+
+  robot.respond /when all hope is lost and darkness is upon us/i, (msg)->
+    msg.send "The offhore team shall know no fear! :sachin: :prem: :kostas: :chris: :drmatt:"
