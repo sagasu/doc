@@ -13,6 +13,7 @@
 #   hubot who will be victorious
 #   hubot who will prevail
 #   hubot who will unleash righteous vengeance upon evil
+#   hubot who will be triumphant
 #
 # Author:
 #   Mateusz Kopij <sagasu>
@@ -34,6 +35,9 @@ module.exports = (robot) ->
     
 
   robot.respond /who will be victorious/i, (msg)->
+    msg.send "The Offshore team! :sachin: :prem: :kostas: :chris: :drmatt:"
+
+  robot.respond /who will be triumphant/i, (msg)->
     msg.send "The Offshore team! :sachin: :prem: :kostas: :chris: :drmatt:"
 
   robot.respond /who will prevail/i, (msg)->
