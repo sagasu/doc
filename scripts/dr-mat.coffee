@@ -19,11 +19,15 @@
 MATT_QUOTE = [
   "Burritos are just tacoids in the category of enchiladafunctors",
   "Monads are just monoids in the category of endofunctors",
-  "We have asymptotic release cycle",
-  "To win greatest victories one must take the greatest risk",
-  "Formitable display of coding power",
   "You can not follow the path, before you will become the path yourself",
-  "Expect nothing, seek nothing, grasp nothing"
+  "Expect nothing, seek nothing, grasp nothing",
+  "You are remembered by the rules you break",
+  "Lead me from unreal to real",
+  "All is vanity, all is now, all is dust",
+  "I admire the eyes of persuasion",
+  "Speed equals winning",
+  "The man who moves the mountains begins with moving the small stones",
+  "The art of competing is the art of forgeting. Forgetting your limits, forgetting your pain."
 ]
 
 module.exports = (robot) ->
