@@ -47,4 +47,4 @@ module.exports = (robot) ->
     msg.send "The heroes of offshore team! :sachin: :prem: :kostas: :chris: :drmatt:"
 
   robot.respond /when all hope is lost and darkness is upon us/i, (msg)->
-    msg.send "The offhore team shall know no fear! :sachin: :prem: :kostas: :chris: :drmatt:"
+    msg.send "The offshore team shall know no fear! :sachin: :prem: :kostas: :chris: :drmatt:"

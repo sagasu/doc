@@ -27,7 +27,7 @@ MATT_QUOTE = [
   "I admire the eyes of persuasion",
   "Speed equals winning",
   "The man who moves the mountains begins with moving the small stones",
-  "The art of competing is the art of forgeting. Forgetting your limits, forgetting your pain."
+  "The art of competing is the art of forgetting. Forgetting your limits, forgetting your pain."
 ]
 
 module.exports = (robot) ->
