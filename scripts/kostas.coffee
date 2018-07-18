@@ -35,3 +35,6 @@ module.exports = (robot) ->
     
   robot.respond /whose Kostas favorite actress/i, (msg)->
     msg.send msg.random ranipics
+
+  robot.respond /how is Kostas doing in Mykonos/i, (msg)->
+    msg.send "https://github.com/sagasu/offshore-team/raw/master/img/KostasInMykonos.jpg"
