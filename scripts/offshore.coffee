@@ -20,9 +20,9 @@
 
 
 offshorepics = [
-  "https://github.com/sagasu/offshore-team/raw/master/img/OffshoreTeam2.jpg",
-  "https://github.com/sagasu/offshore-team/raw/master/img/vicTeam.png",
-  "https://github.com/sagasu/offshore-team/raw/master/img/offshore_gone_wrong.png"
+  "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/OffshoreTeam2.jpg",
+  "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/vicTeam.png",
+  "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/offshore_gone_wrong.png"
 ]
 
 module.exports = (robot) ->
@@ -31,7 +31,7 @@ module.exports = (robot) ->
     msg.send msg.random offshorepics
 
   robot.respond /sachin nsfw/i, (msg)->
-    msg.send "https://github.com/sagasu/offshore-team/raw/master/img/offshore_gone_wrong.png"
+    msg.send "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/offshore_gone_wrong.png"
     
 
   robot.respond /who will be victorious/i, (msg)->

@@ -19,9 +19,9 @@
 #   Mateusz Kopij <sagasu>
 
 cuteLinks = [
-    "https://github.com/sagasu/offshore-team/raw/master/img/0.jpeg",
-    "https://github.com/sagasu/offshore-team/raw/master/img/1.jpg",
-    "https://github.com/sagasu/offshore-team/raw/master/img/2.png"
+    "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/0.jpeg",
+    "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/1.jpg",
+    "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/2.png"
 ]
 
 justhead = [
