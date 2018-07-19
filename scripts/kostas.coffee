@@ -29,6 +29,10 @@ chorichoripics = [
   "https://1.bp.blogspot.com/-JJf-vcwvZtw/V5brJ36t0kI/AAAAAAAAAHM/ik_D98CLhgIqKGmlid0Y-dWx2Kah6ZUUwCLcB/s1600/23.gif"
 ]
 
+kostasInMykonos = [
+  "https://github.com/sagasu/offshore-team/raw/master/img/KostasInMykonos.jpg",
+  "https://github.com/sagasu/offshore-team/raw/master/img/KostasMykonos.gif"
+]
 
 module.exports = (robot) ->
 
@@ -39,4 +43,4 @@ module.exports = (robot) ->
     msg.send msg.random ranipics
 
   robot.respond /how is Kostas doing in Mykonos/i, (msg)->
-    msg.send "https://github.com/sagasu/offshore-team/raw/master/img/KostasInMykonos.jpg"
+    msg.send "https://github.com/sagasu/offshore-team/raw/master/img/KostasMykonos.gif"
