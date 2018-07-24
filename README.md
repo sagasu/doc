@@ -1,6 +1,6 @@
 # Doc
 
-`doc` is a friendly hubot
+`doc` is a friendly hubot :construction:
 
 # Init the cloned code if your bot is hosted in heroku  
 After cloning this repo run following two commands:  
