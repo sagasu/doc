@@ -14,6 +14,7 @@
 #   hubot who will prevail
 #   hubot who will unleash righteous vengeance upon evil
 #   hubot who will be triumphant
+#   hubot is chris racing today
 #
 # Author:
 #   Mateusz Kopij <sagasu>
@@ -22,7 +23,8 @@
 offshorepics = [
   "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/OffshoreTeam2.jpg",
   "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/vicTeam.png",
-  "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/offshore_gone_wrong.png"
+  "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/offshore_gone_wrong.png",
+  "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/chris-donkey-cart-race.jpg"
 ]
 
 module.exports = (robot) ->
@@ -33,6 +35,8 @@ module.exports = (robot) ->
   robot.respond /sachin nsfw/i, (msg)->
     msg.send "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/offshore_gone_wrong.png"
     
+  robot.respond /is chris racing today/i, (msg)->
+    msg.send "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/chris-donkey-cart-race.jpg"
 
   robot.respond /who will be victorious/i, (msg)->
     msg.send "The Offshore team! :sachin: :prem: :kostas: :chris: :drmatt:"
