@@ -14,6 +14,7 @@
 #   hubot sachin super duper bomb 1
 #   hubot sachin super duper bomb 2
 #   hubot sachin super duper bomb N
+#   hubot what is Sachin doing
 #
 # Author:
 #   Mateusz Kopij <sagasu>
