@@ -34,7 +34,8 @@ kostasInMykonos = [
   "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/KostasMykonos.gif",
   "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/KostasNextMorningKneel.jpg",
   "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/KostasDrunk.jpeg",
-  "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/unicorn.jpeg"
+  "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/unicorn.jpeg",
+  "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/heIsBack.jpeg"
 ]
 
 module.exports = (robot) ->
@@ -46,4 +47,4 @@ module.exports = (robot) ->
     msg.send msg.random ranipics
 
   robot.respond /how is Kostas doing in Mykonos/i, (msg)->
-    msg.send "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/unicorn.jpeg"
+    msg.send "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/heIsBack.jpeg"
