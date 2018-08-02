@@ -6,7 +6,7 @@
 #
 #
 # Commands:
-#   hubot (do|don't|are you) (insult2|insulting) me
+#   hubot (do|don't|are you) (Shakespeare insult|insulting) me
 #
 # 
 # Author:
@@ -16,7 +16,7 @@ insultUrl = 'http://www.pangloss.com/seidel/Shaker/'
 
 module.exports = (robot) ->
 
-  robotInsultRegex = new RegExp("(#{robot.name}|.*)? ?(insult2|insulting) ?(#{robot.name}|.*)?", "i")
+  robotInsultRegex = new RegExp("(#{robot.name}|.*)? ?(Shakespeare insult|insulting) ?(#{robot.name}|.*)?", "i")
 
   insultFunction = (res) ->
     robot.http(insultUrl)
