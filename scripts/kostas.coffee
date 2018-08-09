@@ -10,6 +10,7 @@
 # Commands:
 #   hubot chori chori
 #   hubot whose Kostas favorite actress
+#   hubot how is Kostas doing in Mykonos
 #
 # Author:
 #   Mateusz Kopij <sagasu>
