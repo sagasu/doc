@@ -15,10 +15,25 @@
 #   hubot who will unleash righteous vengeance upon evil
 #   hubot who will be triumphant
 #   hubot what is Chris doing today
+#   hubot Chris excuse
 #
 # Author:
 #   Mateusz Kopij <sagasu>
 
+chrisExcuse = [
+  "Sachin makes me feel uncomfortable",
+  "It's your smell",
+  "The world is becoming a computer, so am I",
+  "I focus on privacy today, you don't have an access.",
+  "I am protecting the democracies today. Priorities matter.",
+  "I will be working with ethical AI team. Make sure that it parties like it should, otherwise it wouldn't be ethical.",
+  "I am empowering the team to be more self organized, and take decisions on their own.",
+  "That it the price of innovation and be `zuper` creative.",
+  "Microsoft is pushing Azure project I am pushing my project today.",
+  "I will be creating tickets in JIRA -> sorry TFS for DGI drones and Azuresphere",
+  "I will be checking the quality of products on my favorite hub site. The world needs my input.",
+  "Yesterday Sachin showed me his drone, I am still meditating on that."
+]
 
 offshorepics = [
   "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/OffshoreTeam2.jpg",
@@ -31,6 +46,9 @@ module.exports = (robot) ->
 
   robot.respond /offshore team/i, (msg)->
     msg.send msg.random offshorepics
+
+  robot.respond /Chris excuse/i, (msg)->
+    msg.send msg.random chrisExcuse
 
   robot.respond /sachin nsfw/i, (msg)->
     msg.send "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/offshore_gone_wrong.png"
