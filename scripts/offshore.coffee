@@ -16,6 +16,7 @@
 #   hubot who will be triumphant
 #   hubot what is Chris doing today
 #   hubot Chris excuse
+#   hubot goodbye Prem
 #
 # Author:
 #   Mateusz Kopij <sagasu>
@@ -56,6 +57,10 @@ module.exports = (robot) ->
   robot.respond /what is Chris doing today/i, (msg)->
     msg.send "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/chris-donkey-cart-race.jpg"
     msg.send "racing on his ride."
+
+  robot.respond /goodbye Prem/i, (msg)->
+    msg.send "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/goodbyeold.jpg"
+    msg.send "hey, wait... are you sure that this is the right goodbye?"
 
   robot.respond /who will be victorious/i, (msg)->
     msg.send "The Offshore team! :sachin: :prem: :kostas: :chris: :drmatt:"
