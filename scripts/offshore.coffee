@@ -14,6 +14,7 @@
 #   hubot who will prevail
 #   hubot who will unleash righteous vengeance upon evil
 #   hubot who will be triumphant
+#   hubot when Prem is gone and we are lost in darkness
 #   hubot what is Chris doing today
 #   hubot Chris excuse
 #   hubot goodbye Prem
@@ -81,3 +82,6 @@ module.exports = (robot) ->
 
   robot.respond /when all hope is lost and darkness is upon us/i, (msg)->
     msg.send "The offshore team shall know no fear! :ahsan: :sachin: :prem: :kostas: :chris: :drmatt:"
+
+  robot.respond /when Prem is gone and we are lost in darkness/i, (msg)->
+    msg.send "The offshore team shall know no fear! The offshore team will be triumphant! :ahsan: :sachin: :prem: :kostas: :chris: :drmatt:"
