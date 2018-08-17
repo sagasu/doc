@@ -68,16 +68,16 @@ module.exports = (robot) ->
     msg.send "Praise to the Lord! Hail to you o mighty Prem."
 
   robot.respond /who will be victorious/i, (msg)->
-    msg.send "The Offshore team! :sachin: :prem: :kostas: :chris: :drmatt:"
+    msg.send "The Offshore team! :ahsan: :sachin: :prem: :kostas: :chris: :drmatt:"
 
   robot.respond /who will be triumphant/i, (msg)->
-    msg.send "The Offshore team! :sachin: :prem: :kostas: :chris: :drmatt:"
+    msg.send "The Offshore team! :ahsan: :sachin: :prem: :kostas: :chris: :drmatt:"
 
   robot.respond /who will prevail/i, (msg)->
-    msg.send "The Offshore team! :sachin: :prem: :kostas: :chris: :drmatt:"
+    msg.send "The Offshore team! :ahsan: :sachin: :prem: :kostas: :chris: :drmatt:"
 
   robot.respond /who will unleash righteous vengeance upon evil/i, (msg)->
-    msg.send "The heroes of offshore team! :sachin: :prem: :kostas: :chris: :drmatt:"
+    msg.send "The heroes of offshore team! :ahsan: :sachin: :prem: :kostas: :chris: :drmatt:"
 
   robot.respond /when all hope is lost and darkness is upon us/i, (msg)->
-    msg.send "The offshore team shall know no fear! :sachin: :prem: :kostas: :chris: :drmatt:"
+    msg.send "The offshore team shall know no fear! :ahsan: :sachin: :prem: :kostas: :chris: :drmatt:"
