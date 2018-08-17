@@ -43,6 +43,11 @@ offshorepics = [
   "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/chris-donkey-cart-race.jpg"
 ]
 
+goodbyePrem = [
+  "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/goodbyeold.jpg",
+  "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/premZeus.jpg"
+]
+
 module.exports = (robot) ->
 
   robot.respond /offshore team/i, (msg)->
@@ -59,8 +64,8 @@ module.exports = (robot) ->
     msg.send "racing on his ride."
 
   robot.respond /goodbye Prem/i, (msg)->
-    msg.send "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/goodbyeold.jpg"
-    msg.send "hey, wait... are you sure that this is the right goodbye?"
+    msg.send "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/premZeus.jpg"
+    msg.send "Praise to the Lord! Hail to you o mighty Prem."
 
   robot.respond /who will be victorious/i, (msg)->
     msg.send "The Offshore team! :sachin: :prem: :kostas: :chris: :drmatt:"
