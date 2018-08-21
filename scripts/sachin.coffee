@@ -27,10 +27,6 @@ cuteLinks = [
     "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/yogin.jpg"
 ]
 
-justhead = [
-  ":sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin: :sachin:"
-]
-
 module.exports = (robot) ->
 
   robot.respond /sachin bomb( (\d+))?/i, (msg)->
