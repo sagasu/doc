@@ -80,7 +80,7 @@ module.exports = (robot) ->
     msg.send "stretching so he can be more flexible with CBRIS code."
 
   robot.respond /learn punjabi with Sdog/i, (msg)->
-    msg.random punjabi
+    msg.send msg.random punjabi
 
   robot.respond /sachin super duper bomb( (\d+))?/i, (msg)->
     count = msg.match[2] || 5
