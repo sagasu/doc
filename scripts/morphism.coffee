@@ -50,7 +50,7 @@ module.exports = (robot) ->
     msg.send ""
 
   robot.respond /define paramorphism/i, (msg)->
-    msg.send ""
+    msg.send "It is a more convenient version of `catamorphism` in that it gives the combining step function immediate access not only to the result value recursively computed from each recursive subobject, but the original subobject itself as well."
 
   robot.respond /define polymorphism/i, (msg)->
     msg.send "One that have multiple morphism."
