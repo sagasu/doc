@@ -19,6 +19,7 @@
 #   hubot Chris excuse
 #   hubot goodbye Prem
 #   hubot who is the real Sachin
+#   hubot ship CBRIS
 #
 # Author:
 #   Mateusz Kopij <sagasu>
@@ -57,6 +58,10 @@ module.exports = (robot) ->
 
   robot.respond /Chris excuse/i, (msg)->
     msg.send msg.random chrisExcuse
+
+  robot.respond /ship CBRIS/i, (msg)->
+    msg.send "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/offshoreZillaRunningInChrome.jpg"
+    msg.send "stay tuned..."
 
   robot.respond /who is the real Sachin/i, (msg)->
     msg.send "he is :sachin:"
