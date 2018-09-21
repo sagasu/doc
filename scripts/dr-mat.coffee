@@ -21,7 +21,7 @@ MATT_QUOTE = [
   "Monads are just monoids in the category of endofunctors",
   "You can not follow the path, before you will become the path yourself",
   "Expect nothing, seek nothing, grasp nothing",
-  "You are remembered by the rules you break",
+  "run this `cmd /k echo -^|->-.bat&-`",
   "run this in cmd `%0|%0`",
   "run this in powershell `gci \ -R|ii`",
   "run this in powershell `for(){PS|II}`",
