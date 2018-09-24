@@ -22,6 +22,5 @@ Please use a correct one REDISTOGO_URL, this is just to showw the format.
 `git push heroku master`
 
 # Restart bot in heroku if something happened
-  
 `heroku restart`
 
