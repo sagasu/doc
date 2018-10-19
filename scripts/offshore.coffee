@@ -94,3 +94,6 @@ module.exports = (robot) ->
 
   robot.respond /when Prem is gone and we are lost in darkness/i, (msg)->
     msg.send "The offshore team shall know no fear! The offshore team will be triumphant! :ahsan: :sachin: :prem: :kostas: :chris: :drmatt:"
+  
+  robot.respond /what is the purpose of offshore team/i, (msg)->
+    msg.send "To crush our bugs, see them driven before us, and to hear the lamentation of their women"
