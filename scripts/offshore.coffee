@@ -59,6 +59,9 @@ module.exports = (robot) ->
   robot.respond /Chris excuse/i, (msg)->
     msg.send msg.random chrisExcuse
 
+  robot.respond /name traitors/i, (msg)->
+    msg.send "Marek, Thomas, Prem :prem:, Chris :chris:, Sachin :sachin:"
+
   robot.respond /ship CBRIS/i, (msg)->
     msg.send "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/offshoreZillaRunningInChrome.jpg"
     msg.send "stay tuned..."
