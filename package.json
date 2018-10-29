@@ -23,6 +23,7 @@
     "url": "https://github.com/sagasu/doc/issues"
   },
   "dependencies": {
+    "cron": "~1.0.4",
     "htmlparser": "^1.7.6",
     "hubot": "^2.15.0",
     "hubot-appearin": "^1.0.2",
@@ -47,7 +48,7 @@
     "hubot-principles": "^1.0.0",
     "hubot-pugme": "^0.1.0",
     "hubot-reaction": "0.0.6",
-    "hubot-redis-brain": "0.0.3",
+    "hubot-redis-brain": "^1.0.0",
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.16.2",
     "hubot-shakespearean-insults": "0.0.4",
@@ -61,7 +62,6 @@
     "hubot-victory": "^1.5.3",
     "hubot-weather-mexico": "^1.0.0",
     "soupselect": "^0.2.0",
-    "cron": "~1.0.4",
     "underscore": "1.8.3"
   },
   "homepage": "https://github.com/sagasu/doc#readme"
