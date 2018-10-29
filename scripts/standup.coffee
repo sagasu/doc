@@ -4,6 +4,9 @@
 #
 #   This is configured to work for Hipchat. You may need to change the 'create
 #   standup' command to match the adapter you're using.
+#   
+#   The original script can be found here: https://github.com/shaundon/hubot-standup-alarm
+#   This file is taken from a fork: https://github.com/sagasu/hubot-standup-alarm
 #
 # Configuration:
 #  HUBOT_STANDUP_PREPEND
