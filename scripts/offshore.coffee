@@ -59,6 +59,9 @@ module.exports = (robot) ->
   robot.respond /Chris excuse/i, (msg)->
     msg.send msg.random chrisExcuse
 
+  robot.respond /offshore coat of arms/i, (msg)->
+    msg.send "`if (1 > 2)`"
+
   robot.respond /name traitors/i, (msg)->
     msg.send ":crown: Marek :crown:, Thomas, Prem :prem:, Chris :chris:, Sachin :sachin:, Kostas :kostas: \n
     Ah... the sweet sweet joy of a dark alley, where a cold steal sends best regards from the offshore team. \n
