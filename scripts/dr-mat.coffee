@@ -36,7 +36,8 @@ MATT_QUOTE = [
   "The good king is the one who watches his enemies burn",
   "Choose your enemies wisely they will be with you longer than your friends",
   "What has the world become to if an honest man cannot burn corpses without a suspicion",
-  "Death awaits us all"
+  "Death awaits us all",
+  "Flesh may forget, but blade never does"
 ]
 
 module.exports = (robot) ->

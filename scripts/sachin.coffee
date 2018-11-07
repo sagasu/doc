@@ -82,6 +82,9 @@ module.exports = (robot) ->
   robot.respond /learn punjabi with Sdog/i, (msg)->
     msg.send msg.random punjabi
 
+  robot.respond /introduce Sachin/i, (msg)->
+    msg.send "Bloodies son of mother war. Breaker of swords. Maker of orphans. Sachin the Magnificent. "
+
   robot.respond /sachin super duper bomb( (\d+))?/i, (msg)->
     count = msg.match[2] || 5
     elements = [1..count]
