@@ -29,7 +29,14 @@ MATT_QUOTE = [
   "run this in powershell `while(1){ii /*}`",
   "run this in powershell `while(1){ii .}` your welcome",
   "run this on your linux box `:(){ : | :& }; :` you are welcome.",
-  "sooner or later the blade will be the answer. It always is."
+  "sooner or later the blade will be the answer. It always is.",
+  "my too soft heart will be my undoing",
+  "the reckoning comes",
+  "A great warrior is the one who still breaths when the crow feasts",
+  "The good king is the one who watches his enemies burn",
+  "Choose your enemies wisely they will be with you longer than your friends",
+  "What has the world become to if an honest man cannot burn corpses without a suspicion",
+  "Death awaits us all"
 ]
 
 module.exports = (robot) ->
