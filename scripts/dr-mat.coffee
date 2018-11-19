@@ -38,8 +38,7 @@ MATT_QUOTE = [
   "What has the world become to if an honest man cannot burn corpses without a suspicion",
   "Death awaits us all",
   "Flesh may forget, but blade never does",
-  "The purpose of life is not to be happy it is to be useful, to be honorable, to be compassionate, to have make some difference that you have lived and lived well.",
-  "Time's a b*£$$"
+  "The purpose of life is not to be happy it is to be useful, to be honorable, to be compassionate, to have make some difference that you have lived and lived well."
 ]
 
 module.exports = (robot) ->
