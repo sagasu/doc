@@ -48,3 +48,9 @@ module.exports = (robot) ->
     
   robot.respond /awake your brothers/i, (msg)->
     msg.send "https://secure-anchorage-54524.herokuapp.com/"
+
+  robot.respond /my glass is empty/i, (msg)->
+    msg.send "so is mine ;p"
+
+  robot.respond /my glass is very empty/i, (msg)->
+    msg.send "Why don't you fetch something for you an me"
