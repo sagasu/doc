@@ -21,6 +21,12 @@ Please use a correct one REDISTOGO_URL, this is just to showw the format.
 `git commit --allow-empty -m "<some text>"`
 `git push heroku master`
 
+# Redeploy and don't use cached modules
+`heroku config:set NODE_MODULES_CACHE=false`
+`git commit -am 'rebuild' --allow-empty`
+`git push heroku master`
+`heroku config:unset NODE_MODULES_CACHE`
+
 # Restart bot in heroku if something happened
 `heroku restart`
 
