@@ -1,6 +1,7 @@
 [
   "hubot-reaction",
   "hubot-plusplus",
+  "hubot-haiku",
   "hubot-help",
   "hubot-heroku-keepalive",
   "hubot-diagnostics",
@@ -21,7 +22,6 @@
   "hubot-cutebomb",
   "hubot-brexit",
   "hubot-blackfriday",
-  "hubot-pokemon-react",
   "hubot-beer-o-clock",
   "hubot-weather-mexico",
   "hubot-appearin",

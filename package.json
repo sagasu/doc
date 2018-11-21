@@ -37,6 +37,7 @@
     "hubot-estimate": "^1.0.1",
     "hubot-euro2016": "^1.0.0",
     "hubot-fliptable": "^2.0.0",
+    "hubot-haiku": "^1.0.4",
     "hubot-help": "^0.1.1",
     "hubot-heroku-keepalive": "0.0.4",
     "hubot-houseparty": "^1.1.0",
