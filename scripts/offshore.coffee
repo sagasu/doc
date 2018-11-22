@@ -53,8 +53,8 @@ goodbyePrem = [
 
 module.exports = (robot) ->
 
-  robot.respond /pokemon/i, (msg)->
-    msg.send "No Pokemons please, it reminds me too much of Kostas"
+  robot.hear /pokemon/i, (msg)->
+    msg.send "pokemons? POKEMONS? We don't need stupid pokemons! please, it reminds me too much of Megan Fox mom"
 
   robot.respond /offshore team/i, (msg)->
     msg.send msg.random offshorepics

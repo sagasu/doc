@@ -15,9 +15,12 @@
 #   Mateusz Kopij <sagasu>
 
 
-MATT_QUOTE_PL = [
+POLISH_QUOTE = [
   "Żyj tak, jakby jutro już wczoraj wyruchało Cię w dupę.",
-  "Wczoraj koks sypał się jak konfident na przesłuchaniu."
+  "Wczoraj koks sypał się jak konfident na przesłuchaniu.",
+  "Mężczyźni w którymś momencie zaczynają przedkładać cellulit mózgowy nad brak cellulitu dupnego.",
+  "Promieniować blaskiem bardziej niż elektrownia w Czarnobylu.",
+  "Wyglądasz jakby Ci ktoś w wargę strzykawką z botoksem nie trafił."
 ]
 
 MATT_QUOTE = [
@@ -57,7 +60,7 @@ module.exports = (robot) ->
     msg.send "so is mine ;p"
 
   robot.respond /learn polish with Dr Matt/i, (msg)->
-    msg.send msg.random(MATT_QUOTE_PL)
+    msg.send msg.random(POLISH_QUOTE)
 
   robot.respond /my glass is very empty/i, (msg)->
     msg.send "Why don't you fetch something for you an me"
