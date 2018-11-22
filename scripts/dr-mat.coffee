@@ -15,6 +15,10 @@
 #   Mateusz Kopij <sagasu>
 
 
+MATT_QUOTE_PL = [
+  "Żyj tak, jakby jutro już wczoraj wyruchało Cię w dupę.",
+  "Wczoraj koks sypał się jak konfident na przesłuchaniu."
+]
 
 MATT_QUOTE = [
   "Burritos are just tacoids in the category of enchiladafunctors",
@@ -51,6 +55,9 @@ module.exports = (robot) ->
 
   robot.respond /my glass is empty/i, (msg)->
     msg.send "so is mine ;p"
+
+  robot.respond /learn polish with Dr Matt/i, (msg)->
+    msg.send msg.random(MATT_QUOTE_PL)
 
   robot.respond /my glass is very empty/i, (msg)->
     msg.send "Why don't you fetch something for you an me"
