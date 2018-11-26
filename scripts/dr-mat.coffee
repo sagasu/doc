@@ -69,7 +69,7 @@ module.exports = (robot) ->
   enterReplies = ['Hi', 'Hello friend.', 'I see you :eye: :eye:']
   leaveReplies = ['Finally he left. We didn\'t like him anyway', 'You won\'t be missed here ;p', 'This channel is not for quitters. I am glad he left!']
   
-  robot.enter (res) ->
-    res.send res.random enterReplies
-  robot.leave (res) ->
-    res.send res.random leaveReplies
+  # robot.enter (res) ->
+  #   res.send res.random enterReplies
+  # robot.leave (res) ->
+  #   res.send res.random leaveReplies
