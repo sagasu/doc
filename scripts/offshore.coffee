@@ -108,3 +108,12 @@ module.exports = (robot) ->
   
   robot.respond /what is the purpose of offshore team/i, (msg)->
     msg.send "To crush our bugs, see them driven before us, and to hear the lamentation of their women"
+
+  robot.respond /Ahsan smash/i, (msg)->
+    msg.send "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/hulk.gif"
+
+  robot.respond /What would :richard: say/i, (msg)->
+    msg.send "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/richardResponse.gif"
+
+  robot.respond /What would Richard say/i, (msg)->
+    msg.send "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/richardResponse.gif"
