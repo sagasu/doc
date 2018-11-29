@@ -65,6 +65,9 @@ module.exports = (robot) ->
   robot.respond /my glass is very empty/i, (msg)->
     msg.send "Why don't you fetch something for you an me"
 
+  robot.respond /azure DevOps status/i, (msg)->
+    msg.send "https://status.dev.azure.com/"
+
 
   enterReplies = ['Hi', 'Hello friend.', 'I see you :eye: :eye:']
   leaveReplies = ['Finally he left. We didn\'t like him anyway', 'You won\'t be missed here ;p', 'This channel is not for quitters. I am glad he left!']
