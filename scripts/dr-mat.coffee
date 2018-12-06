@@ -17,10 +17,12 @@
 
 POLISH_QUOTE = [
   "Żyj tak, jakby jutro już wczoraj wyruchało Cię w dupę.",
-  "Wczoraj koks sypał się jak konfident na przesłuchaniu.",
+  "Koks sypał się jak konfident na przesłuchaniu.",
   "Mężczyźni w którymś momencie zaczynają przedkładać cellulit mózgowy nad brak cellulitu dupnego.",
   "Promieniować blaskiem bardziej niż elektrownia w Czarnobylu.",
-  "Wyglądasz jakby Ci ktoś w wargę strzykawką z botoksem nie trafił."
+  "Wyglądasz jakby Ci ktoś w wargę strzykawką z botoksem nie trafił.",
+  "Rzucil sie jak rozlew Dunaju na przybrzezne domki",
+  "Niebo gwiazdziste nade mna a koniak grzejacy perorował apologie"
 ]
 
 MATT_QUOTE = [
