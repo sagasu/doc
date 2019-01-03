@@ -10,6 +10,7 @@
 # Commands:
 #   hubot what would Dr Matt say
 #   hubot awake your brothers
+#   hubot define bikeshedding
 #
 # Author:
 #   Mateusz Kopij <sagasu>
@@ -54,7 +55,10 @@ module.exports = (robot) ->
 
   robot.respond /what would Dr Matt say/i, (msg)->
     msg.send msg.random(MATT_QUOTE)
-    
+
+  robot.respond /define bikeshedding/i, (msg)->
+    msg.send  "Spending disproportionate time and energy spent over an insignificant or unimportant detail of a larger concern. The term comes from an illustrative anecdote of a committee discussing a plan to build a nuclear power plant."
+
   robot.respond /awake your brothers/i, (msg)->
     msg.send "https://secure-anchorage-54524.herokuapp.com/"
 
