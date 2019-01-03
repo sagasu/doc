@@ -11,6 +11,9 @@
 #   hubot what would Dr Matt say
 #   hubot awake your brothers
 #   hubot define bikeshedding
+#   hubot azure DevOps status
+#   hubot my glass is very empty
+#   hubot my glass is empty
 #
 # Author:
 #   Mateusz Kopij <sagasu>
