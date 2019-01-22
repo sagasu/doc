@@ -11,6 +11,7 @@
 #   hubot chori chori
 #   hubot whose Kostas favorite actress
 #   hubot how is Kostas doing in Mykonos
+#   bubot kostas bomb N
 #
 # Author:
 #   Mateusz Kopij <sagasu>
@@ -49,3 +50,9 @@ module.exports = (robot) ->
 
   robot.respond /how is Kostas doing in Mykonos/i, (msg)->
     msg.send "https://raw.githubusercontent.com/sagasu/offshore-team/master/img/heIsBack.jpeg"
+
+  robot.respond /kostas bomb( (\d+))?/i, (msg)->
+    count = msg.match[2] || 5
+    elements = [1..count]
+    Math.floor(Math.random() * kostasInMykonos.length)
+    msg.send kostasInMykonos[Math.floor(Math.random() * kostasInMykonos.length)] for element in elements
