@@ -89,22 +89,22 @@ module.exports = (robot) ->
     msg.send "Praise to the Lord! Hail to you o mighty Prem."
 
   robot.respond /who will be victorious/i, (msg)->
-    msg.send "The Offshore team! :ahsan: :sachin: :kostas: :richard: :andrew: :drmatt:"
+    msg.send "The Offshore team! :ahsan: :sachin: :kostas: :richard: :drmatt:"
 
   robot.respond /who will be triumphant/i, (msg)->
-    msg.send "The Offshore team! :ahsan: :sachin: :kostas: :richard: :andrew: :drmatt:"
+    msg.send "The Offshore team! :ahsan: :sachin: :kostas: :richard: :drmatt:"
 
   robot.respond /who will prevail/i, (msg)->
-    msg.send "The Offshore team! :ahsan: :sachin: :kostas: :richard: :andrew: :drmatt:"
+    msg.send "The Offshore team! :ahsan: :sachin: :kostas: :richard: :drmatt:"
 
   robot.respond /who will unleash righteous vengeance upon evil/i, (msg)->
-    msg.send "The heroes of offshore team! :ahsan: :sachin: :kostas: :richard: :andrew: :drmatt:"
+    msg.send "The heroes of offshore team! :ahsan: :sachin: :kostas: :richard: :drmatt:"
 
   robot.respond /when all hope is lost and darkness is upon us/i, (msg)->
-    msg.send "The offshore team shall know no fear! :ahsan: :sachin: :kostas: :richard: :andrew: :drmatt:"
+    msg.send "The offshore team shall know no fear! :ahsan: :sachin: :kostas: :richard: :drmatt:"
 
   robot.respond /when Prem is gone and we are lost in darkness/i, (msg)->
-    msg.send "The offshore team shall know no fear! The offshore team will be triumphant! :ahsan: :sachin: :prem: :kostas: :andrew: :drmatt:"
+    msg.send "The offshore team shall know no fear! The offshore team will be triumphant! :ahsan: :sachin: :richard: :kostas: :drmatt:"
   
   robot.respond /what is the purpose of offshore team/i, (msg)->
     msg.send "To crush our bugs, see them driven before us, and to hear the lamentation of their women"
