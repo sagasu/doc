@@ -24,6 +24,11 @@ module.exports = (robot) ->
 
   robot.respond /cat bomb( (\d+))?/i, (msg) ->
     count = msg.match[2] || 2
+    
+    if count > 10
+      msg.send "go fuck yourself bitch"
+      return
+
     for cat in [1..count]
       msg.http("http://edgecats.net/random")
         .get() (err, res, body) ->

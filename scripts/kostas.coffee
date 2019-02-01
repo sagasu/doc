@@ -53,6 +53,10 @@ module.exports = (robot) ->
 
   robot.respond /kostas bomb( (\d+))?/i, (msg)->
     count = msg.match[2] || 5
+    if count > 10
+      msg.send "go fuck yourself bitch"
+      return
+    
     elements = [1..count]
     Math.floor(Math.random() * kostasInMykonos.length)
     msg.send kostasInMykonos[Math.floor(Math.random() * kostasInMykonos.length)] for element in elements
