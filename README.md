@@ -1,6 +1,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
-[![Status: Check](https://img.shields.io/github/checks-status/sagasu/Algo-DataStructures/master?style=plastic)]  
+
 # Doc
 
 `doc` is a friendly hubot :construction:
