@@ -63,7 +63,7 @@
     "hubot-victory": "^1.5.3",
     "hubot-weather-mexico": "^1.0.0",
     "soupselect": "^0.2.0",
-    "underscore": "1.8.3"
+    "underscore": "^1.13.1"
   },
   "homepage": "https://github.com/sagasu/doc#readme"
 }
