@@ -6,6 +6,7 @@
   "hubot-heroku-keepalive",
   "hubot-diagnostics",
   "hubot-pugme",
+  "hubot-redis-brain",
   "hubot-maps",
   "hubot-rules",
   "hubot-shipit2",
@@ -26,6 +27,5 @@
   "hubot-appearin",
   "hubot-houseparty",
   "hubot-insulter",
-  "hubot-estimate",
   "hubot-slack-utils"
 ]
