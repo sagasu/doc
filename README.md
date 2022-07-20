@@ -16,7 +16,7 @@ Please use a correct one REDISTOGO_URL, this is just to showw the format.
 `heroku config:add REDISTOGO_URL=redis://redistogo:b1bc59b8c7fd80e646b6148d9354813f@lab.redistogo.com:10505`  
 `heroku config:add HEROKU_URL=https://doc-the-bot.herokuapp.com`  
 `heroku config:add HUBOT_SLACK_TOKEN=xoxb-45372731543-dep7di9WTsj7fUnOjtUXDX6Y`  
-`heroku config:add HUBOT_BOT_NAME=doc`
+`heroku config:add HUBOT_BOT_NAME=doc`  
 `git push heroku master`  
  
 
