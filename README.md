@@ -33,3 +33,38 @@ Please use a correct one REDISTOGO_URL, this is just to showw the format.
 # Restart bot in heroku if something happened
 `heroku restart`
 
+# old external scripts
+[
+  "hubot-reaction",
+  "hubot-plusplus",
+  "hubot-haiku",
+  "hubot-help",
+  "hubot-heroku-keepalive",
+  "hubot-diagnostics",
+  "hubot-pugme",
+  "hubot-redis-brain",
+  "hubot-maps",
+  "hubot-rules",
+  "hubot-shipit2",
+  "hubot-thank-you",
+  "hubot-tell",
+  "hubot-principles",
+  "hubot-darts",
+  "hubot-thesimpsons",
+  "hubot-victory",
+  "hubot-trello",
+  "hubot-hrexcuse",
+  "hubot-euro2016",
+  "hubot-cutebomb",
+  "hubot-brexit",
+  "hubot-blackfriday",
+  "hubot-beer-o-clock",
+  "hubot-weather-mexico",
+  "hubot-appearin",
+  "hubot-houseparty",
+  "hubot-insulter",
+  "hubot-slack-utils"
+]
+
+# old hubot-scripts
+["whos-the-man", "email", "cat", "sachin", "kostas", "standup", "morphism", "dr-matt", "offshore", "shaker", "solid", "do-it", "ambush", "applause", "hubotagainsthumanity", "birthday", "chuck-norris.coffee"]

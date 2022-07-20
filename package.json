@@ -1,68 +1,25 @@
 {
   "name": "doc",
-  "version": "1.1.2",
-  "description": "Simple Hubot",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sagasu/doc.git"
-  },
-  "keywords": [
-    "hubot",
-    "bot"
-  ],
-  "engines": {
-    "node": ">= 0.12"
-  },
-  "author": "Mateusz Kopij <sagasu>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sagasu/doc/issues"
-  },
+  "version": "0.0.0",
+  "private": true,
+  "author": "Mateusz Kopij <sagasu@gmail.com>",
+  "description": "A simple helpful robot for your Company",
   "dependencies": {
-    "cron": "~1.0.4",
-    "htmlparser": "^1.7.6",
-    "hubot": "^2.15.0",
-    "hubot-appearin": "^1.0.2",
-    "hubot-beer-o-clock": "^1.8.0",
-    "hubot-blackfriday": "^1.1.0",
-    "hubot-brexit": "^1.2.0",
-    "hubot-buddy-the-elf": "0.0.2",
-    "hubot-cutebomb": "^1.0.0",
-    "hubot-darts": "^1.0.2",
-    "hubot-diagnostics": "0.0.1",
-    "hubot-euro2016": "^1.0.0",
-    "hubot-fliptable": "^2.0.0",
-    "hubot-haiku": "^1.0.4",
-    "hubot-help": "^0.1.1",
-    "hubot-heroku-keepalive": "0.0.4",
-    "hubot-houseparty": "^1.1.0",
-    "hubot-hrexcuse": "^1.0.0",
-    "hubot-insulter": "^1.0.2",
-    "hubot-maps": "0.0.2",
-    "hubot-plusplus": "^1.1.5",
-    "hubot-pokemon-react": "^1.0.1",
-    "hubot-principles": "^1.0.0",
-    "hubot-pugme": "^0.1.0",
-    "hubot-reaction": "0.0.6",
+    "hubot": "^3.3.2",
+    "hubot-diagnostics": "^1.0.0",
+    "hubot-google-images": "^0.2.7",
+    "hubot-google-translate": "^0.2.1",
+    "hubot-help": "^1.0.1",
+    "hubot-heroku-keepalive": "^1.0.3",
+    "hubot-maps": "0.0.3",
+    "hubot-pugme": "^0.1.1",
     "hubot-redis-brain": "^1.0.0",
-    "hubot-rules": "^0.1.1",
-    "hubot-scripts": "^2.16.2",
-    "hubot-shakespearean-insults": "0.0.4",
-    "hubot-shipit2": "^0.2.1",
-    "hubot-slack": "^3.3.0",
-    "hubot-slack-utils": "0.0.5",
-    "hubot-tell": "^1.2.4",
-    "hubot-thank-you": "0.0.3",
-    "hubot-thesimpsons": "^1.1.4",
-    "hubot-trello": "^0.2.0",
-    "hubot-victory": "^1.5.3",
-    "hubot-weather-mexico": "^1.0.0",
-    "soupselect": "^0.2.0",
-    "underscore": "^1.13.1"
+    "hubot-rules": "^1.0.0",
+    "hubot-scripts": "^2.17.2",
+    "hubot-shipit": "^0.2.1",
+    "hubot-slack": "^4.10.0"
   },
-  "homepage": "https://github.com/sagasu/doc#readme"
+  "engines": {
+    "node": "14.4.x"
+  }
 }
