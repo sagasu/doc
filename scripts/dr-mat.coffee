@@ -41,7 +41,10 @@ MATT_QUOTE = [
   "run this in powershell `for(){PS|SAPS}`",
   "run this in powershell `while(1){ii /*}`",
   "run this in powershell `while(1){ii .}` your welcome",
-  "run this on your linux box `:(){ : | :& }; :` you are welcome.",
+  "run this on your linux box `:(){ : | :& }; :` you are welcome."
+]
+
+CRAP_QUOTE = [
   "sooner or later the blade will be the answer. It always is.",
   "my too soft heart will be my undoing",
   "the reckoning comes",
